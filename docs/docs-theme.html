@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+    <title>Ample admin Template - The Ultimate Multipurpose admin template</title>
+    <!-- This page css -->
+    <!-- Custom CSS -->
+    <link href="../dist/css/style.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="highlights/highlight.min.css">
+	<!-- Custom CSS -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+	<!-- Custom CSS -->
+	<style>
+		.font-18 {
+		    font-size: 18px !important;
+		}
+	</style>
+</head>
+
+<body>
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <div class="lds-ripple">
+            <div class="lds-pos"></div>
+            <div class="lds-pos"></div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar">
+            <nav class="navbar top-navbar navbar-expand-md navbar-dark">
+                <div class="navbar-header">
+                    <!-- This is for the sidebar toggle which is visible on mobile only -->
+                    <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)"><i
+                            class="ti-menu ti-close"></i></a>
+                    <!-- ============================================================== -->
+                    <!-- Logo -->
+                    <!-- ============================================================== -->
+                    <div class="navbar-brand">
+                        <!-- Logo icon -->
+                        <a href="index.html">
+                            <b class="logo-icon">
+                                <!-- Dark Logo icon -->
+                                <img src="../assets/images/logos/logo-icon.png" alt="homepage" class="dark-logo" />
+                                <!-- Light Logo icon -->
+                                <img src="../assets/images/logos/logo-icon.png" alt="homepage" class="light-logo" />
+                            </b>
+                            <!--End Logo icon -->
+                            <!-- Logo text -->
+                            <span class="logo-text">
+                                <!-- dark Logo text -->
+                                <img src="../assets/images/logos/logo-text.png" alt="homepage" class="dark-logo" />
+                                <!-- Light Logo text -->
+                                <img src="../assets/images/logos/logo-light-text.png" class="light-logo" alt="homepage" />
+                            </span>
+                        </a>
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- End Logo -->
+                    <!-- ============================================================== -->
+                    <!-- ============================================================== -->
+                    <!-- Toggle which is visible on mobile only -->
+                    <!-- ============================================================== -->
+                    <a class="topbartoggler d-block d-md-none waves-effect waves-light" href="javascript:void(0)"
+                        data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i
+                            class="ti-more"></i></a>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav float-left mr-auto ml-3 pl-1">
+                        <!-- ============================================================== -->
+                        <!-- create new -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="documentation.html" role="button">
+                                Documentation
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <li class="nav-small-cap"><span class="hide-menu">Getting Started</span></li>
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="documentation.html"
+                        aria-expanded="false"><i class="icon-chart font-18"></i>
+							<span class="hide-menu">Introduction</span></a>
+						</li>
+						<li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="docs-start.html"
+                        aria-expanded="false"><i class="ti-notepad font-18"></i>
+							<span class="hide-menu">Gettings Started</span></a>
+						</li>
+                        <li class="list-divider"></li>
+                        <li class="nav-small-cap"><span class="hide-menu">Customization</span></li>
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="docs-layout.html"
+                        aria-expanded="false"><i class="ti-layers font-18"></i>
+							<span class="hide-menu">Layout Options</span></a>
+						</li>
+						<li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="docs-theme.html"
+                        aria-expanded="false"><i class="icon-drawar font-18"></i>
+							<span class="hide-menu">Color Settings</span></a>
+						</li>
+                        <li class="list-divider"></li>
+                        <li class="nav-small-cap"><span class="hide-menu">UI Components</span></li>
+						<li class="sidebar-item"> <a class="sidebar-link has-arrow" href="javascript:void(0)"
+                                aria-expanded="false"><i class="icon-grid font-18"></i><span
+                                    class="hide-menu">Bootstrap
+                                </span></a>
+                            <ul aria-expanded="false" class="collapse  first-level">
+                                <li class="sidebar-item"><a href="docs-ui-buttons.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Buttons </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-modals.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Modals </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-tabs.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Tabs </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-tooltip-popover.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Tooltip & Popover </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-notification.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Notification </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-progressbar.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Progressbar </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-typography.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Typography </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-bootstrapui.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Bootstrap UI </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-breadcrumb.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Breadcrumb </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-listmedia.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> List Media </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-grid.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Grid </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-carousel.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Carousel </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-scrollspy.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Scrollspy </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-toasts.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Toasts </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-spinner.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Spinner </span></a></li>
+                            </ul>
+                        </li>
+						<li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="icon-note font-18"></i><span class="hide-menu">Customized</span></a>
+                            <ul aria-expanded="false" class="collapse first-level">
+                                <li class="sidebar-item"><a href="docs-custom-datatables.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Datatables</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-widgets.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Widgets</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-chart-chartjs.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> ChartJs</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-toastr.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Toastr</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-chart-chartist.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Chartist</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-chart-c3.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> C3 Chart</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-chart-echart.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Echart</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-cards.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Cards</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-blockui.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Blockui</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-table-bootstrap.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Bootstrap Table</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-nouislider.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Nouislider</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-material-datepicker.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Form Material Datepicker</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-touchspin.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Form Bootstrap Touchspin</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-duallistbox.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Form Duallistbox</span></a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <div class="page-breadcrumb border-bottom py-3">
+                <div class="d-flex align-items-center">
+                    <h4 class="page-title text-truncate text-dark font-weight-medium mb-0">Themes</h4>
+                    <div class="ml-auto">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb m-0 p-0">
+                                <li class="breadcrumb-item text-muted active" aria-current="page">Ample</li>
+                                <li class="breadcrumb-item text-muted" aria-current="page">Themes</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="page-content container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+							<div class="p-4 bg-light">
+								<h4 class="card-title">How to Change Sidebar Background Color ?</h4>
+								<hr>
+								<div class="mt-4 p-3 border border-info rounded">
+									<span>Go to <span class="badge badge-info badge-pill font-weight-medium">dist / js / app.init.js</span> and change <span class="text-danger">SidebarColor: 'skin5'</span> to <span class="text-success">SidebarColor: 'skin6'</span>. you can change from skin1 to skin6, whatever you like. as shown below:</span>
+								</div>
+								<pre class="highlight javascript">
+									<code class="shadow-sm px-4">
+$(function () {
+	"use strict";
+	$("#main-wrapper").AdminSettings({
+	    Theme: false, // this can be true or false ( true means dark and false means light ),
+	    Layout: 'vertical',
+	    LogoBg: 'skin6', // You can change the Value to be skin1/skin2/skin3/skin4/skin5/skin6 
+	    NavbarBg: 'skin6', // You can change the Value to be skin1/skin2/skin3/skin4/skin5/skin6
+	    SidebarType: 'full', // You can change it full / mini-sidebar / iconbar / overlay
+	    SidebarColor: 'skin6', // You can change the Value to be skin1/skin2/skin3/skin4/skin5/skin6
+	    SidebarPosition: true, // it can be true / false ( true means Fixed and false means absolute )
+	    HeaderPosition: true, // it can be true / false ( true means Fixed and false means absolute )
+	    BoxedLayout: true, // it can be true / false ( true means Boxed and false means Fluid ) 
+	});
+});
+									</code>
+								</pre>
+								<h4 class="card-title">How to Change Header Background Color ?</h4>
+								<hr>
+								<div class="mt-4 p-3 border border-info rounded">
+									<span>Go to <span class="badge badge-info badge-pill font-weight-medium">dist / js / app.init.js</span> and change <span class="text-danger">NavbarBg: 'skin5'</span> to <span class="text-success">NavbarBg: 'skin6'</span>. you can change from skin1 to skin6, whatever you like. as shown below:</span>
+								</div>
+								<pre class="highlight javascript">
+									<code class="shadow-sm px-4">
+$(function () {
+	"use strict";
+	$("#main-wrapper").AdminSettings({
+	    Theme: false, // this can be true or false ( true means dark and false means light ),
+	    Layout: 'vertical',
+	    LogoBg: 'skin6', // You can change the Value to be skin1/skin2/skin3/skin4/skin5/skin6 
+	    NavbarBg: 'skin6', // You can change the Value to be skin1/skin2/skin3/skin4/skin5/skin6
+	    SidebarType: 'full', // You can change it full / mini-sidebar / iconbar / overlay
+	    SidebarColor: 'skin6', // You can change the Value to be skin1/skin2/skin3/skin4/skin5/skin6
+	    SidebarPosition: true, // it can be true / false ( true means Fixed and false means absolute )
+	    HeaderPosition: true, // it can be true / false ( true means Fixed and false means absolute )
+	    BoxedLayout: true, // it can be true / false ( true means Boxed and false means Fluid ) 
+	});
+});
+									</code>
+								</pre>
+								<h4 class="card-title">How to Change Global Skin Colors ?</h4>
+								<hr>
+								<div class="mt-4 p-3 border border-info rounded">
+									<span>Go to <span class="badge badge-info badge-pill font-weight-medium">src / scss / variables.scss</span> and change the value of variable whatever you like <span class="text-danger">$skin2: #fe5419;</span></span>
+								</div>
+								<pre class="highlight css">
+									<code class="shadow-sm px-4" style="height: 300px;">
+/*******************************/
+// Custom Variables
+/*******************************/
+
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800');
+
+
+
+/*Theme Colors*/
+
+$themecolor: #2962FF;
+$themecolor-dark: #028ee1;
+$themecolor-alt: #26c6da;
+$theme-light:#fff;
+$theme-dark:#212529;
+
+$skin1:#2962FF;
+$skin2:#fe5419;
+$skin3:#00b0ff;
+$skin4:#6659f7;
+$skin5:#414755;
+$skin6:#fff;
+
+
+
+/*Topbar Colors*/
+
+$topbar:$theme-light;
+$topbar-height:64px;
+$topbar-navlink-padding:0px 15px;
+$topbar-navlink-font-size:0.875rem;
+$topbar-navlink-height:64px;
+$topbar-navbrand-padding:0 10px 0 10px;
+
+
+
+/*Sidebar Colors*/
+
+$sidebar: $theme-light;
+$sidebar-alt:#e8eff0;
+$sidebar-text: #fff;
+$sidebar-icons: #fff;
+$sidebar-text-dark: #212529;
+$sidebar-icons-dark: #4F5467;
+
+$sidebar-width-full:250px;
+$sidebar-width-iconbar:180px;
+$sidebar-width-mini:65px;   
+
+
+
+/*Boxed layout width*/
+
+$boxed-width:1200px;
+
+
+
+/*Shadow*/
+
+$shadow:1px 0px 20px rgba(0,
+0,
+0,
+0.08);
+
+
+
+/*transitions*/
+
+$transitions:0.2s ease-in;
+
+
+
+/*Dark transparent bg*/
+
+$transparent-dark-bg:rgba(0,
+0,
+0,
+0.05);
+
+$lft:left;
+$rgt:right;
+$card-alt:#e4e9ef;
+
+%square {
+    border-radius: 0px
+}
+
+;
+%rotate45 {
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+}
+
+
+
+/*******************************/
+
+// Bootstrap overrides
+
+/*******************************/
+
+
+/**
+ * Table Of Content
+ *
+ *  1. Color system
+ *  2. Options
+ *  3. Body
+ *  4. Typography
+ *  5. Breadcrumbs
+ *  6. Cards
+ *  7. Dropdowns
+ *  8. Buttons
+ *  9. Typography
+ *  10. Progress bars
+ *  11. Tables
+ *  12. Forms
+ *  14. Component
+ */
+
+//
+// Color system
+//
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #a1aab2 !default;
+$gray-600: #6c757d !default;
+$gray-700: #4F5467 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+
+$blue: #2962FF !default;
+$indigo: #6610f2 !default;
+$purple: #7460ee !default;
+$pink: #e83e8c !default;
+$red: #f62d51 !default;
+$orange: #fb8c00 !default;
+$yellow: #ffbc34 !default;
+$green: #36bea6 !default;
+$teal: #20c997 !default;
+$cyan: #4fc3f7 !default;
+$primary: #7460ee !default;
+$text-muted: $gray-500 !default;
+
+$colors: ( blue: $blue,
+indigo: $indigo,
+purple: $purple,
+pink: $pink,
+red: $red,
+orange: $orange,
+yellow: $yellow,
+green: $green,
+teal: $teal,
+cyan: $cyan,
+white: $white,
+gray: $gray-600,
+gray-dark: $gray-800);
+
+$primary: $blue !default;
+$secondary: $gray-600 !default;
+$success: $green !default;
+$info: $blue !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: $gray-100 !default;
+$dark: $gray-800 !default;
+$cyan: $cyan !default;
+$orange: $orange !default;
+$theme-colors: () !default;
+$theme-colors: map-merge(( &quot;primary&quot;: $primary,
+&quot;secondary&quot;: $secondary,
+&quot;success&quot;: $success,
+&quot;info&quot;: $info,
+&quot;warning&quot;: $warning,
+&quot;danger&quot;: $danger,
+&quot;light&quot;: $light,
+&quot;dark&quot;: $dark,
+&quot;cyan&quot;: $cyan,
+&quot;orange&quot;: $orange,
+&quot;purple&quot;: $purple),
+$theme-colors);
+
+
+//
+// Quickly modify global styling by enabling or disabling optional features.
+$enable-caret: true !default;
+$enable-rounded: true !default;
+$enable-shadows: false !default;
+$enable-gradients: false !default;
+$enable-transitions: true !default;
+$enable-hover-media-query: false !default;
+$enable-grid-classes: true !default;
+$enable-print-styles: true !default;
+
+
+// Body
+//
+// Settings for the  element.
+$main-body-bg: #fff!default;
+$body-bg: #eef5f9;
+$body-color: #3e5569 !default;
+$grid-gutter-width: 20px !default;
+
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+$font-size-base: 0.875rem;
+$font-family-sans-serif: 'Nunito Sans',
+sans-serif !default;
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-medium: 600 !default; 
+$font-weight-bold: 800 !default;
+
+$h1-font-size: 36px !default;
+$h2-font-size: 30px !default;
+$h3-font-size: 24px !default;
+$h4-font-size: 18px !default;
+$h5-font-size: 16px !default;
+$h6-font-size: 14px !default;
+
+$headings-margin-bottom: (1rem / 2) !default;
+$headings-font-weight: 700 !default;
+$headings-color: inherit !default;
+
+
+
+// Breadcrumbs
+$breadcrumb-bg: $body-bg;
+$breadcrumb-margin-bottom: 1.5rem;
+
+// Cards
+$card-border-width: 0px!default $card-border-color: transparent!default;
+
+$card-border-radius: 0px !default;
+
+
+// Dropdowns
+$dropdown-item-padding-x: 1rem !default;
+$dropdown-item-padding-y: .65rem !default;
+$dropdown-border-color: $gray-200;
+$dropdown-divider-bg: $gray-100;
+
+// Buttons
+$btn-secondary-border: $gray-300;
+
+// Progress bars
+$progress-bg: $gray-100;
+
+// Tables
+$table-bg-accent: $gray-100;
+$table-bg-hover: $gray-100;
+$table-hover-bg: $gray-100 !default;
+$table-cell-padding: 1rem !default;
+$table-bg-level: -10 !default;
+$table-bg-level2: 1 !default;
+$table-bg-level3: -5 !default;
+// Components
+$component-active-color: $white !default;
+$component-active-bg: $themecolor !default;
+$badge-pill-padding-x: .2em !default;
+$badge-pill-padding-y: 1em !default;
+
+
+// Forms
+$input-group-addon-bg: $gray-100;
+$input-border-color: $gray-200;
+$input-group-addon-border-color: $gray-200;
+$input-btn-focus-color: rgba(0,
+0,
+0,
+.25) !default;
+$input-focus-border-color: rgba(0,
+0,
+0,
+0.25) !default;
+$custom-control-indicator-active-bg: rgba(0,
+0,
+0,
+35%) !default;
+$custom-select-indicator: url(../../assets/images/custom-select.png)!default;  
+$input-btn-focus-box-shadow: transparent !default;
+$custom-select-focus-box-shadow: transparent !default;
+$custom-select-indicator: str-replace(url(&quot;&quot;),
+&quot;#&quot;) !default;
+//
+// Define common padding and border radius sizes and more.
+$border-width: 1px !default;
+$border-color: $gray-200 !default;
+
+$border-radius: 2px !default;
+$border-radius-lg: 2px !default;
+$border-radius-sm: 1px !default;
+
+
+// Progress bars
+$progress-height: 5px !default;
+
+//Tabs
+$nav-tabs-link-active-bg: $white !default;
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+$grid-breakpoints: ( xs: 0,
+sm: 576px,
+md: 768px,
+lg: 992px,
+xl: 1600px) !default;
+
+//Navbar
+$navbar-dark-color: rgba($white,
+.8) !default;
+$navbar-dark-hover-color: rgba($white,
+1) !default;
+									</code>
+								</pre>
+							</div>
+						</div>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+            <footer class="footer text-center">
+                All Rights Reserved by Ample. Designed and Developed by <a
+                    href="https://wrappixel.com">WrapPixel</a>.
+            </footer>
+            <!-- ============================================================== -->
+            <!-- End footer -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- End Page -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="../assets/libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- apps -->
+    <script src="../dist/js/app.min.js"></script>
+    <script src="../dist/js/app.init.js"></script>
+    <script src="../dist/js/app-style-switcher.js"></script>
+    <script src="../assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="../dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="js/custom.js"></script>
+    <!-- End JS -->
+	<script src="highlights/highlight.min.js"></script>
+	<script>
+		hljs.initHighlightingOnLoad();
+	</script>
+</body>
+
+</html>

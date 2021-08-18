@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+    <title>Ample admin Template - The Ultimate Multipurpose admin template</title>
+    <!-- This page css -->
+    <!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="../assets/libs/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.css">
+    <link href="../dist/css/style.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="highlights/highlight.min.css">
+	<!-- Custom CSS -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+	<!-- Custom CSS -->
+	<style>
+		.font-18 {
+		    font-size: 18px !important;
+		}
+	</style>
+</head>
+
+<body>
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <div class="lds-ripple">
+            <div class="lds-pos"></div>
+            <div class="lds-pos"></div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar">
+            <nav class="navbar top-navbar navbar-expand-md navbar-dark">
+                <div class="navbar-header">
+                    <!-- This is for the sidebar toggle which is visible on mobile only -->
+                    <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)"><i
+                            class="ti-menu ti-close"></i></a>
+                    <!-- ============================================================== -->
+                    <!-- Logo -->
+                    <!-- ============================================================== -->
+                    <div class="navbar-brand">
+                        <!-- Logo icon -->
+                        <a href="index.html">
+                            <b class="logo-icon">
+                                <!-- Dark Logo icon -->
+                                <img src="../assets/images/logos/logo-icon.png" alt="homepage" class="dark-logo" />
+                                <!-- Light Logo icon -->
+                                <img src="../assets/images/logos/logo-icon.png" alt="homepage" class="light-logo" />
+                            </b>
+                            <!--End Logo icon -->
+                            <!-- Logo text -->
+                            <span class="logo-text">
+                                <!-- dark Logo text -->
+                                <img src="../assets/images/logos/logo-text.png" alt="homepage" class="dark-logo" />
+                                <!-- Light Logo text -->
+                                <img src="../assets/images/logos/logo-light-text.png" class="light-logo" alt="homepage" />
+                            </span>
+                        </a>
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- End Logo -->
+                    <!-- ============================================================== -->
+                    <!-- ============================================================== -->
+                    <!-- Toggle which is visible on mobile only -->
+                    <!-- ============================================================== -->
+                    <a class="topbartoggler d-block d-md-none waves-effect waves-light" href="javascript:void(0)"
+                        data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i
+                            class="ti-more"></i></a>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav float-left mr-auto ml-3 pl-1">
+                        <!-- ============================================================== -->
+                        <!-- create new -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="documentation.html" role="button">
+                                Documentation
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <li class="nav-small-cap"><span class="hide-menu">Getting Started</span></li>
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="documentation.html"
+                        aria-expanded="false"><i class="icon-chart font-18"></i>
+							<span class="hide-menu">Introduction</span></a>
+						</li>
+						<li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="docs-start.html"
+                        aria-expanded="false"><i class="ti-notepad font-18"></i>
+							<span class="hide-menu">Gettings Started</span></a>
+						</li>
+                        <li class="list-divider"></li>
+                        <li class="nav-small-cap"><span class="hide-menu">Customization</span></li>
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="docs-layout.html"
+                        aria-expanded="false"><i class="ti-layers font-18"></i>
+							<span class="hide-menu">Layout Options</span></a>
+						</li>
+						<li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="docs-theme.html"
+                        aria-expanded="false"><i class="icon-drawar font-18"></i>
+							<span class="hide-menu">Color Settings</span></a>
+						</li>
+                        <li class="list-divider"></li>
+                        <li class="nav-small-cap"><span class="hide-menu">UI Components</span></li>
+						<li class="sidebar-item"> <a class="sidebar-link has-arrow" href="javascript:void(0)"
+                                aria-expanded="false"><i class="icon-grid font-18"></i><span
+                                    class="hide-menu">Bootstrap
+                                </span></a>
+                            <ul aria-expanded="false" class="collapse  first-level">
+                                <li class="sidebar-item"><a href="docs-ui-buttons.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Buttons </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-modals.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Modals </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-tabs.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Tabs </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-tooltip-popover.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Tooltip & Popover </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-notification.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Notification </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-progressbar.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Progressbar </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-typography.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Typography </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-bootstrapui.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Bootstrap UI </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-breadcrumb.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Breadcrumb </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-listmedia.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> List Media </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-grid.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Grid </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-carousel.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Carousel </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-scrollspy.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Scrollspy </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-toasts.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Toasts </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-spinner.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Spinner </span></a></li>
+                            </ul>
+                        </li>
+						<li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="icon-note font-18"></i><span class="hide-menu">Customized</span></a>
+                            <ul aria-expanded="false" class="collapse first-level">
+                                <li class="sidebar-item"><a href="docs-custom-datatables.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Datatables</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-widgets.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Widgets</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-chart-chartjs.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> ChartJs</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-toastr.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Toastr</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-chart-chartist.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Chartist</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-chart-c3.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> C3 Chart</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-chart-echart.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Echart</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-cards.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Cards</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-blockui.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Blockui</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-table-bootstrap.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Bootstrap Table</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-nouislider.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Nouislider</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-material-datepicker.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Form Material Datepicker</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-touchspin.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Form Bootstrap Touchspin</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-duallistbox.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Form Duallistbox</span></a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <div class="page-breadcrumb border-bottom py-3">
+                <div class="d-flex align-items-center">
+                    <h4 class="page-title text-truncate text-dark font-weight-medium mb-0">Touchspin</h4>
+                    <div class="ml-auto">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb m-0 p-0">
+                                <li class="breadcrumb-item text-muted active" aria-current="page">Ample</li>
+                                <li class="breadcrumb-item text-muted" aria-current="page">Touchspin</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="page-content container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card overflow-hidden">
+							<div class="card-body border-bottom">
+								<h4 class="card-title mb-0">Touchspin</h4>
+							</div>
+							<div class="row justify-content-center bg-light p-5">
+								<div class="col-md-6">
+									<div class="card shadow-sm">
+										<div class="p-4">
+			                                <h5 class="card-title">Normal Touchspin</h5>
+											<div class="form-group">
+												<input id="demo3" type="text" value="-1" name="demo3">
+											</div>
+											<h5 class="card-title border-top pt-3">Vertical buttons with custom icons</h5>
+											<div class="form-group">
+												<input id="demo_vertical2" type="text" value="" name="demo_vertical2">
+											</div>
+											<h5 class="card-title border-top pt-3">Button Group</h5>
+											<form class="form-horizontal mt-3">
+			                                    <div class="form-group">
+			                                        <div class="input-group">
+			                                            <input id="demo5" type="text" class="form-control" name="demo5" value="50">
+			                                            <div class="btn-group">
+			                                                <button type="button" class="btn btn-light">Action</button>
+			                                                <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+			                                                    <span class="sr-only">Toggle Dropdown</span>
+			                                                </button>
+			                                                <div class="dropdown-menu">
+			                                                    <a class="dropdown-item" href="javascript:void(0)">Action</a>
+			                                                    <a class="dropdown-item" href="javascript:void(0)">Another action</a>
+			                                                    <a class="dropdown-item" href="javascript:void(0)">Something else here</a>
+			                                                    <div class="dropdown-divider"></div>
+			                                                    <a class="dropdown-item" href="javascript:void(0)">Separated link</a>
+			                                                </div>
+			                                            </div>
+			                                        </div>
+			                                    </div>
+			                                </form>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="px-4">
+								<h4 class="card-title mt-4">Code Here:</h4>
+								<hr>
+								<pre class="highlight html">
+									<code class="shadow-sm px-4" style="height: 250px;">
+&lt;h5 class=&quot;card-title&quot;&gt;Normal Touchspin&lt;/h5&gt;
+&lt;div class=&quot;form-group&quot;&gt;
+	&lt;input id=&quot;demo3&quot; type=&quot;text&quot; value=&quot;-1&quot; name=&quot;demo3&quot;&gt;
+&lt;/div&gt;
+&lt;h5 class=&quot;card-title border-top pt-3&quot;&gt;Vertical buttons with custom icons&lt;/h5&gt;
+&lt;div class=&quot;form-group&quot;&gt;
+	&lt;input id=&quot;demo_vertical2&quot; type=&quot;text&quot; value=&quot;&quot; name=&quot;demo_vertical2&quot;&gt;
+&lt;/div&gt;
+&lt;h5 class=&quot;card-title border-top pt-3&quot;&gt;Button Group&lt;/h5&gt;
+&lt;form class=&quot;form-horizontal mt-3&quot;&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;div class=&quot;input-group&quot;&gt;
+            &lt;input id=&quot;demo5&quot; type=&quot;text&quot; class=&quot;form-control&quot; name=&quot;demo5&quot; value=&quot;50&quot;&gt;
+            &lt;div class=&quot;btn-group&quot;&gt;
+                &lt;button type=&quot;button&quot; class=&quot;btn btn-light&quot;&gt;Action&lt;/button&gt;
+                &lt;button type=&quot;button&quot; class=&quot;btn btn-light dropdown-toggle dropdown-toggle-split&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;true&quot;&gt;
+                    &lt;span class=&quot;sr-only&quot;&gt;Toggle Dropdown&lt;/span&gt;
+                &lt;/button&gt;
+                &lt;div class=&quot;dropdown-menu&quot;&gt;
+                    &lt;a class=&quot;dropdown-item&quot; href=&quot;javascript:void(0)&quot;&gt;Action&lt;/a&gt;
+                    &lt;a class=&quot;dropdown-item&quot; href=&quot;javascript:void(0)&quot;&gt;Another action&lt;/a&gt;
+                    &lt;a class=&quot;dropdown-item&quot; href=&quot;javascript:void(0)&quot;&gt;Something else here&lt;/a&gt;
+                    &lt;div class=&quot;dropdown-divider&quot;&gt;&lt;/div&gt;
+                    &lt;a class=&quot;dropdown-item&quot; href=&quot;javascript:void(0)&quot;&gt;Separated link&lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/form&gt;
+									</code>
+								</pre>
+							</div>
+							<div class="px-4">
+								<h4 class="card-title mt-4">Init Code</h4>
+								<hr>
+								<pre class="highlight javascript">
+									<code class="shadow-sm px-4" style="height: 150px;">
+$("input[name='demo3']").TouchSpin();
+			
+// 2
+$("input[name='demo_vertical2']").TouchSpin({
+    verticalbuttons: true,
+    verticalupclass: 'glyphicon glyphicon-plus',
+    verticaldownclass: 'glyphicon glyphicon-minus'
+});
+
+// 3
+ $("input[name='demo5']").TouchSpin({
+    prefix: "pre",
+    postfix: "post"
+});
+
+									</code>
+								</pre>
+							</div>
+							<div class="px-4">
+								<h4 class="card-title mt-4">Required Files For Touchspin Here</h4>
+								<hr>
+								<pre class="highlight html">
+									<code class="shadow-sm px-4" style="height: 150px;">
+&lt;!-- CSS Here --&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;../../assets/libs/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.css&quot;&gt;
+
+&lt;!-- Javascript Here --&gt;
+&lt;script src=&quot;../../assets/libs/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.js&quot;&gt;&lt;/script&gt;
+
+									</code>
+								</pre>
+							</div>
+						</div>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+            <footer class="footer text-center">
+                All Rights Reserved by Ample. Designed and Developed by <a
+                    href="https://wrappixel.com">WrapPixel</a>.
+            </footer>
+            <!-- ============================================================== -->
+            <!-- End footer -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- End Page -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="../assets/libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- apps -->
+    <script src="../dist/js/app.min.js"></script>
+    <script src="../dist/js/app.init.js"></script>
+    <script src="../dist/js/app-style-switcher.js"></script>
+    <script src="../assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="../dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="js/custom.js"></script>
+    <!-- End JS -->
+	<script src="highlights/highlight.min.js"></script>
+	<script src="../assets/libs/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.js"></script>
+
+	<script>
+		$(function(){
+			$("input[name='demo3']").TouchSpin();
+			
+			// 2
+			$("input[name='demo_vertical2']").TouchSpin({
+		        verticalbuttons: true,
+		        verticalupclass: 'glyphicon glyphicon-plus',
+		        verticaldownclass: 'glyphicon glyphicon-minus'
+		    });
+		
+			// 3
+			 $("input[name='demo5']").TouchSpin({
+		        prefix: "pre",
+		        postfix: "post"
+		    });
+		
+
+			hljs.initHighlightingOnLoad();
+		});
+	</script>
+</body>
+
+</html>

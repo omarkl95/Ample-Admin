@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+    <title>Ample admin Template - The Ultimate Multipurpose admin template</title>
+    <!-- This page css -->
+    <!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="../assets/extra-libs/css-chart/css-chart.css">
+    <link href="../dist/css/style.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="highlights/highlight.min.css">
+	<!-- Custom CSS -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+	<!-- Custom CSS -->
+	<style>
+		.font-18 {
+		    font-size: 18px !important;
+		}
+	</style>
+</head>
+
+<body>
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <div class="lds-ripple">
+            <div class="lds-pos"></div>
+            <div class="lds-pos"></div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar">
+            <nav class="navbar top-navbar navbar-expand-md navbar-dark">
+                <div class="navbar-header">
+                    <!-- This is for the sidebar toggle which is visible on mobile only -->
+                    <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)"><i
+                            class="ti-menu ti-close"></i></a>
+                    <!-- ============================================================== -->
+                    <!-- Logo -->
+                    <!-- ============================================================== -->
+                    <div class="navbar-brand">
+                        <!-- Logo icon -->
+                        <a href="index.html">
+                            <b class="logo-icon">
+                                <!-- Dark Logo icon -->
+                                <img src="../assets/images/logos/logo-icon.png" alt="homepage" class="dark-logo" />
+                                <!-- Light Logo icon -->
+                                <img src="../assets/images/logos/logo-icon.png" alt="homepage" class="light-logo" />
+                            </b>
+                            <!--End Logo icon -->
+                            <!-- Logo text -->
+                            <span class="logo-text">
+                                <!-- dark Logo text -->
+                                <img src="../assets/images/logos/logo-text.png" alt="homepage" class="dark-logo" />
+                                <!-- Light Logo text -->
+                                <img src="../assets/images/logos/logo-light-text.png" class="light-logo" alt="homepage" />
+                            </span>
+                        </a>
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- End Logo -->
+                    <!-- ============================================================== -->
+                    <!-- ============================================================== -->
+                    <!-- Toggle which is visible on mobile only -->
+                    <!-- ============================================================== -->
+                    <a class="topbartoggler d-block d-md-none waves-effect waves-light" href="javascript:void(0)"
+                        data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i
+                            class="ti-more"></i></a>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav float-left mr-auto ml-3 pl-1">
+                        <!-- ============================================================== -->
+                        <!-- create new -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="documentation.html" role="button">
+                                Documentation
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <li class="nav-small-cap"><span class="hide-menu">Getting Started</span></li>
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="documentation.html"
+                        aria-expanded="false"><i class="icon-chart font-18"></i>
+							<span class="hide-menu">Introduction</span></a>
+						</li>
+						<li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="docs-start.html"
+                        aria-expanded="false"><i class="ti-notepad font-18"></i>
+							<span class="hide-menu">Gettings Started</span></a>
+						</li>
+                        <li class="list-divider"></li>
+                        <li class="nav-small-cap"><span class="hide-menu">Customization</span></li>
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="docs-layout.html"
+                        aria-expanded="false"><i class="ti-layers font-18"></i>
+							<span class="hide-menu">Layout Options</span></a>
+						</li>
+						<li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="docs-theme.html"
+                        aria-expanded="false"><i class="icon-drawar font-18"></i>
+							<span class="hide-menu">Color Settings</span></a>
+						</li>
+                        <li class="list-divider"></li>
+                        <li class="nav-small-cap"><span class="hide-menu">UI Components</span></li>
+						<li class="sidebar-item"> <a class="sidebar-link has-arrow" href="javascript:void(0)"
+                                aria-expanded="false"><i class="icon-grid font-18"></i><span
+                                    class="hide-menu">Bootstrap
+                                </span></a>
+                            <ul aria-expanded="false" class="collapse  first-level">
+                                <li class="sidebar-item"><a href="docs-ui-buttons.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Buttons </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-modals.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Modals </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-tabs.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Tabs </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-tooltip-popover.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Tooltip & Popover </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-notification.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Notification </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-progressbar.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Progressbar </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-typography.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Typography </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-bootstrapui.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Bootstrap UI </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-breadcrumb.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Breadcrumb </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-listmedia.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> List Media </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-grid.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Grid </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-carousel.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Carousel </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-scrollspy.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Scrollspy </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-toasts.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Toasts </span></a></li>
+								<li class="sidebar-item"><a href="docs-ui-spinner.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Spinner </span></a></li>
+                            </ul>
+                        </li>
+						<li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="icon-note font-18"></i><span class="hide-menu">Customized</span></a>
+                            <ul aria-expanded="false" class="collapse first-level">
+                                <li class="sidebar-item"><a href="docs-custom-datatables.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Datatables</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-widgets.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Widgets</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-chart-chartjs.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> ChartJs</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-toastr.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Toastr</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-chart-chartist.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Chartist</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-chart-c3.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> C3 Chart</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-chart-echart.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Echart</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-cards.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Cards</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-blockui.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Blockui</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-table-bootstrap.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Bootstrap Table</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-nouislider.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Nouislider</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-material-datepicker.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Form Material Datepicker</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-touchspin.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Form Bootstrap Touchspin</span></a></li>
+                                <li class="sidebar-item"><a href="docs-custom-duallistbox.html" class="sidebar-link"><i class="icon-drop"></i><span class="hide-menu"> Form Duallistbox</span></a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <div class="page-breadcrumb border-bottom py-3">
+                <div class="d-flex align-items-center">
+                    <h4 class="page-title text-truncate text-dark font-weight-medium mb-0">Cards</h4>
+                    <div class="ml-auto">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb m-0 p-0">
+                                <li class="breadcrumb-item text-muted active" aria-current="page">Ample</li>
+                                <li class="breadcrumb-item text-muted" aria-current="page">Cards</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="page-content container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card overflow-hidden">
+							<div class="card-body border-bottom">
+								<h4 class="card-title mb-0">Cards</h4>
+							</div>
+							<div class="row justify-content-center bg-light p-5">
+								<div class="col-md-7">
+									<div class="card shadow-sm">
+										<div class="p-4">
+											<h5>Left Alignment</h5>
+											<div class="card mb-0 bg-light mt-3">
+											    <div class="card-body">
+											        <h4 class="card-title">Special title treatment</h4>
+											        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+											        <a href="javascript:void(0)" class="btn btn-info">Go somewhere</a>
+											    </div>
+											</div>
+										</div>
+										<div class="p-4 border-top">
+											<h5>Center Alignment</h5>
+											<div class="card text-center mb-0 mt-3 bg-light">
+											    <div class="card-body">
+											        <h4 class="card-title">Special title treatment</h4>
+											        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+											        <a href="javascript:void(0)" class="btn btn-primary">Go somewhere</a>
+											    </div>
+											</div>
+										</div>
+										<div class="p-4 border-top">
+											<h5>Right Alignment</h5>
+											<div class="card text-right mb-0 mt-3 bg-light">
+											    <div class="card-body">
+											        <h4 class="card-title">Special title treatment</h4>
+											        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+											        <a href="javascript:void(0)" class="btn btn-inverse">Go somewhere</a>
+											    </div>
+											</div>
+										</div>	
+									</div>
+								</div>
+							</div>
+							<div class="px-4">
+								<h4 class="card-title mt-4">Code Here:</h4>
+								<hr>
+								<pre class="highlight html">
+									<code class="shadow-sm px-4" style="height: 250px;">
+&lt;div class=&quot;p-4&quot;&gt;
+	&lt;h5&gt;Left Alignment&lt;/h5&gt;
+	&lt;div class=&quot;card mb-0 bg-light mt-3&quot;&gt;
+	    &lt;div class=&quot;card-body&quot;&gt;
+	        &lt;h4 class=&quot;card-title&quot;&gt;Special title treatment&lt;/h4&gt;
+	        &lt;p class=&quot;card-text&quot;&gt;With supporting text below as a natural lead-in to additional content.&lt;/p&gt;
+	        &lt;a href=&quot;javascript:void(0)&quot; class=&quot;btn btn-info&quot;&gt;Go somewhere&lt;/a&gt;
+	    &lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;p-4 border-top&quot;&gt;
+	&lt;h5&gt;Center Alignment&lt;/h5&gt;
+	&lt;div class=&quot;card text-center mb-0 mt-3 bg-light&quot;&gt;
+	    &lt;div class=&quot;card-body&quot;&gt;
+	        &lt;h4 class=&quot;card-title&quot;&gt;Special title treatment&lt;/h4&gt;
+	        &lt;p class=&quot;card-text&quot;&gt;With supporting text below as a natural lead-in to additional content.&lt;/p&gt;
+	        &lt;a href=&quot;javascript:void(0)&quot; class=&quot;btn btn-primary&quot;&gt;Go somewhere&lt;/a&gt;
+	    &lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;p-4 border-top&quot;&gt;
+	&lt;h5&gt;Right Alignment&lt;/h5&gt;
+	&lt;div class=&quot;card text-right mb-0 mt-3 bg-light&quot;&gt;
+	    &lt;div class=&quot;card-body&quot;&gt;
+	        &lt;h4 class=&quot;card-title&quot;&gt;Special title treatment&lt;/h4&gt;
+	        &lt;p class=&quot;card-text&quot;&gt;With supporting text below as a natural lead-in to additional content.&lt;/p&gt;
+	        &lt;a href=&quot;javascript:void(0)&quot; class=&quot;btn btn-inverse&quot;&gt;Go somewhere&lt;/a&gt;
+	    &lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;		
+									</code>
+								</pre>
+							</div>
+							<div class="px-4">
+								<h4 class="card-title mb-0">Social Cards</h4>
+							</div>
+							<div class="row justify-content-center bg-light py-5 mt-4">
+								<div class="col-md-7">
+									<div class="card shadow-sm">
+										<div class="p-4">
+											<div class="row">
+												<div class="col-md-6">
+													<div class="card shadow-sm">
+					                                    <div class="row">
+					                                        <div class="col-12">
+					                                            <div class="bg-info p-20">
+					                                                <div class="text-center text-white display-6">
+					                                                    <i class="ti-facebook"></i>
+					                                                </div>
+					                                            </div>
+					                                            <div class="card-body">
+					                                                <div class="d-flex no-block align-items-center">
+					                                                    <div>
+					                                                        <h3 class="font-medium">456</h3>
+					                                                        <h5 class="text-info m-b-0">Following</h5>
+					                                                    </div>
+					                                                    <div class="ml-auto">
+					                                                        <h3 class="font-medium">1,456</h3>
+					                                                        <h5 class="text-info m-b-0">Friends</h5>
+					                                                    </div>
+					                                                </div>
+					                                            </div>
+					                                        </div>
+					                                    </div>
+					                                </div>
+												</div>
+												<div class="col-md-6">
+													<div class="card shadow-sm">
+					                                    <div class="row">
+					                                        <div class="col-12">
+					                                            <div class="bg-cyan p-20">
+					                                                <div class="text-center text-white display-6">
+					                                                    <i class="ti-twitter"></i>
+					                                                </div>
+					                                            </div>
+					                                            <div class="card-body">
+					                                                <div class="d-flex no-block align-items-center">
+					                                                    <div>
+					                                                        <h3 class="font-medium">456</h3>
+					                                                        <h5 class="text-cyan m-b-0">Tweets</h5>
+					                                                    </div>
+					                                                    <div class="ml-auto">
+					                                                        <h3 class="font-medium">1,456</h3>
+					                                                        <h5 class="text-cyan m-b-0">Followers</h5>
+					                                                    </div>
+					                                                </div>
+					                                            </div>
+					                                        </div>
+					                                    </div>
+					                                </div>
+												</div>
+												<div class="col-md-6">
+													<div class="card shadow-sm">
+					                                    <div class="row">
+					                                        <div class="col-12">
+					                                            <div class="bg-success p-20">
+					                                                <div class="text-center text-white display-6">
+					                                                    <i class="ti-instagram"></i>
+					                                                </div>
+					                                            </div>
+					                                            <div class="card-body">
+					                                                <div class="d-flex no-block align-items-center">
+					                                                    <div>
+					                                                        <h3 class="font-medium">456</h3>
+					                                                        <h5 class="text-success m-b-0">Following</h5>
+					                                                    </div>
+					                                                    <div class="ml-auto">
+					                                                        <h3 class="font-medium">1,456</h3>
+					                                                        <h5 class="text-success m-b-0">Followers</h5>
+					                                                    </div>
+					                                                </div>
+					                                            </div>
+					                                        </div>
+					                                    </div>
+					                                </div>
+												</div>
+												<div class="col-md-6">
+													<div class="card shadow-sm">
+					                                    <div class="row">
+					                                        <div class="col-12">
+					                                            <div class="bg-dark p-20">
+					                                                <div class="text-center text-white display-6">
+					                                                    <i class="ti-skype"></i>
+					                                                </div>
+					                                            </div>
+					                                            <div class="card-body">
+					                                                <div class="d-flex no-block align-items-center">
+					                                                    <div>
+					                                                        <h3 class="font-medium">456</h3>
+					                                                        <h5 class="text-dark m-b-0">Contacts</h5>
+					                                                    </div>
+					                                                    <div class="ml-auto">
+					                                                        <h3 class="font-medium">1,456</h3>
+					                                                        <h5 class="text-dark m-b-0">Following</h5>
+					                                                    </div>
+					                                                </div>
+					                                            </div>
+					                                        </div>
+					                                    </div>
+					                                </div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="px-4">
+								<h4 class="card-title mt-4">Code Here:</h4>
+								<hr>
+								<pre class="highlight html">
+									<code class="shadow-sm px-4" style="height: 250px;">
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-md-6&quot;&gt;
+		&lt;div class=&quot;card shadow-sm&quot;&gt;
+            &lt;div class=&quot;row&quot;&gt;
+                &lt;div class=&quot;col-12&quot;&gt;
+                    &lt;div class=&quot;bg-info p-20&quot;&gt;
+                        &lt;div class=&quot;text-center text-white display-6&quot;&gt;
+                            &lt;i class=&quot;ti-facebook&quot;&gt;&lt;/i&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;card-body&quot;&gt;
+                        &lt;div class=&quot;d-flex no-block align-items-center&quot;&gt;
+                            &lt;div&gt;
+                                &lt;h3 class=&quot;font-medium&quot;&gt;456&lt;/h3&gt;
+                                &lt;h5 class=&quot;text-info m-b-0&quot;&gt;Following&lt;/h5&gt;
+                            &lt;/div&gt;
+                            &lt;div class=&quot;ml-auto&quot;&gt;
+                                &lt;h3 class=&quot;font-medium&quot;&gt;1,456&lt;/h3&gt;
+                                &lt;h5 class=&quot;text-info m-b-0&quot;&gt;Friends&lt;/h5&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-md-6&quot;&gt;
+		&lt;div class=&quot;card shadow-sm&quot;&gt;
+            &lt;div class=&quot;row&quot;&gt;
+                &lt;div class=&quot;col-12&quot;&gt;
+                    &lt;div class=&quot;bg-cyan p-20&quot;&gt;
+                        &lt;div class=&quot;text-center text-white display-6&quot;&gt;
+                            &lt;i class=&quot;ti-twitter&quot;&gt;&lt;/i&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;card-body&quot;&gt;
+                        &lt;div class=&quot;d-flex no-block align-items-center&quot;&gt;
+                            &lt;div&gt;
+                                &lt;h3 class=&quot;font-medium&quot;&gt;456&lt;/h3&gt;
+                                &lt;h5 class=&quot;text-cyan m-b-0&quot;&gt;Tweets&lt;/h5&gt;
+                            &lt;/div&gt;
+                            &lt;div class=&quot;ml-auto&quot;&gt;
+                                &lt;h3 class=&quot;font-medium&quot;&gt;1,456&lt;/h3&gt;
+                                &lt;h5 class=&quot;text-cyan m-b-0&quot;&gt;Followers&lt;/h5&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-md-6&quot;&gt;
+		&lt;div class=&quot;card shadow-sm&quot;&gt;
+            &lt;div class=&quot;row&quot;&gt;
+                &lt;div class=&quot;col-12&quot;&gt;
+                    &lt;div class=&quot;bg-success p-20&quot;&gt;
+                        &lt;div class=&quot;text-center text-white display-6&quot;&gt;
+                            &lt;i class=&quot;ti-instagram&quot;&gt;&lt;/i&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;card-body&quot;&gt;
+                        &lt;div class=&quot;d-flex no-block align-items-center&quot;&gt;
+                            &lt;div&gt;
+                                &lt;h3 class=&quot;font-medium&quot;&gt;456&lt;/h3&gt;
+                                &lt;h5 class=&quot;text-success m-b-0&quot;&gt;Following&lt;/h5&gt;
+                            &lt;/div&gt;
+                            &lt;div class=&quot;ml-auto&quot;&gt;
+                                &lt;h3 class=&quot;font-medium&quot;&gt;1,456&lt;/h3&gt;
+                                &lt;h5 class=&quot;text-success m-b-0&quot;&gt;Followers&lt;/h5&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-md-6&quot;&gt;
+		&lt;div class=&quot;card shadow-sm&quot;&gt;
+            &lt;div class=&quot;row&quot;&gt;
+                &lt;div class=&quot;col-12&quot;&gt;
+                    &lt;div class=&quot;bg-dark p-20&quot;&gt;
+                        &lt;div class=&quot;text-center text-white display-6&quot;&gt;
+                            &lt;i class=&quot;ti-skype&quot;&gt;&lt;/i&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;card-body&quot;&gt;
+                        &lt;div class=&quot;d-flex no-block align-items-center&quot;&gt;
+                            &lt;div&gt;
+                                &lt;h3 class=&quot;font-medium&quot;&gt;456&lt;/h3&gt;
+                                &lt;h5 class=&quot;text-dark m-b-0&quot;&gt;Contacts&lt;/h5&gt;
+                            &lt;/div&gt;
+                            &lt;div class=&quot;ml-auto&quot;&gt;
+                                &lt;h3 class=&quot;font-medium&quot;&gt;1,456&lt;/h3&gt;
+                                &lt;h5 class=&quot;text-dark m-b-0&quot;&gt;Following&lt;/h5&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+									</code>
+								</pre>
+							</div>
+							<div class="px-4">
+								<h4 class="card-title mb-0">Line Cards</h4>
+							</div>
+							<div class="row justify-content-center bg-light py-5 mt-4">
+								<div class="col-md-7">
+									<div class="card shadow-sm">
+										<div class="p-4">
+											<div class="row">
+												<div class="col-md-6">
+													<div class="card border-bottom shadow border-info">
+					                                    <div class="card-body">
+					                                        <div class="d-flex no-block align-items-center">
+					                                            <div>
+					                                                <h2>120</h2>
+					                                                <h6 class="text-info">News Feed</h6>
+					                                            </div>
+					                                            <div class="ml-auto">
+					                                                <span class="text-info display-6"><i class="ti-notepad"></i></span>
+					                                            </div>
+					                                        </div>
+					                                    </div>
+					                                </div>
+												</div>
+												<div class="col-md-6">
+													<div class="card border-bottom shadow border-cyan">
+					                                    <div class="card-body">
+					                                        <div class="d-flex no-block align-items-center">
+					                                            <div>
+					                                                <h2>150</h2>
+					                                                <h6 class="text-cyan">Invoices</h6>
+					                                            </div>
+					                                            <div class="ml-auto">
+					                                                <span class="text-cyan display-6"><i class="ti-clipboard"></i></span>
+					                                            </div>
+					                                        </div>
+					                                    </div>
+					                                </div>
+												</div>
+												<div class="col-md-6">
+													<div class="card border-bottom shadow border-success">
+					                                    <div class="card-body">
+					                                        <div class="d-flex no-block align-items-center">
+					                                            <div>
+					                                                <h2>450</h2>
+					                                                <h6 class="text-success">Revenue</h6>
+					                                            </div>
+					                                            <div class="ml-auto">
+					                                                <span class="text-success display-6"><i class="ti-wallet"></i></span>
+					                                            </div>
+					                                        </div>
+					                                    </div>
+					                                </div>
+												</div>
+												<div class="col-md-6">
+													<div class="card border-bottom shadow border-orange">
+					                                    <div class="card-body">
+					                                        <div class="d-flex no-block align-items-center">
+					                                            <div>
+					                                                <h2>100</h2>
+					                                                <h6 class="text-orange">Sales</h6>
+					                                            </div>
+					                                            <div class="ml-auto">
+					                                                <span class="text-orange display-6"><i class="ti-stats-down"></i></span>
+					                                            </div>
+					                                        </div>
+					                                    </div>
+					                                </div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="px-4">
+								<h4 class="card-title mt-4">Code Here:</h4>
+								<hr>
+								<pre class="highlight html">
+									<code class="shadow-sm px-4" style="height: 250px;">
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-md-6&quot;&gt;
+		&lt;div class=&quot;card border-bottom shadow border-info&quot;&gt;
+            &lt;div class=&quot;card-body&quot;&gt;
+                &lt;div class=&quot;d-flex no-block align-items-center&quot;&gt;
+                    &lt;div&gt;
+                        &lt;h2&gt;120&lt;/h2&gt;
+                        &lt;h6 class=&quot;text-info&quot;&gt;News Feed&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;ml-auto&quot;&gt;
+                        &lt;span class=&quot;text-info display-6&quot;&gt;&lt;i class=&quot;ti-notepad&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-md-6&quot;&gt;
+		&lt;div class=&quot;card border-bottom shadow border-cyan&quot;&gt;
+            &lt;div class=&quot;card-body&quot;&gt;
+                &lt;div class=&quot;d-flex no-block align-items-center&quot;&gt;
+                    &lt;div&gt;
+                        &lt;h2&gt;150&lt;/h2&gt;
+                        &lt;h6 class=&quot;text-cyan&quot;&gt;Invoices&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;ml-auto&quot;&gt;
+                        &lt;span class=&quot;text-cyan display-6&quot;&gt;&lt;i class=&quot;ti-clipboard&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-md-6&quot;&gt;
+		&lt;div class=&quot;card border-bottom shadow border-success&quot;&gt;
+            &lt;div class=&quot;card-body&quot;&gt;
+                &lt;div class=&quot;d-flex no-block align-items-center&quot;&gt;
+                    &lt;div&gt;
+                        &lt;h2&gt;450&lt;/h2&gt;
+                        &lt;h6 class=&quot;text-success&quot;&gt;Revenue&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;ml-auto&quot;&gt;
+                        &lt;span class=&quot;text-success display-6&quot;&gt;&lt;i class=&quot;ti-wallet&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-md-6&quot;&gt;
+		&lt;div class=&quot;card border-bottom shadow border-orange&quot;&gt;
+            &lt;div class=&quot;card-body&quot;&gt;
+                &lt;div class=&quot;d-flex no-block align-items-center&quot;&gt;
+                    &lt;div&gt;
+                        &lt;h2&gt;100&lt;/h2&gt;
+                        &lt;h6 class=&quot;text-orange&quot;&gt;Sales&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;ml-auto&quot;&gt;
+                        &lt;span class=&quot;text-orange display-6&quot;&gt;&lt;i class=&quot;ti-stats-down&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+									</code>
+								</pre>
+							</div>
+							<div class="px-4">
+								<h4 class="card-title mb-0">Card Groups</h4>
+							</div>
+							<div class="row justify-content-center bg-light py-5 mt-4">
+								<div class="col-md-11">
+									<div class="card shadow-sm">
+										<div class="p-4">
+											<div class="card-group">
+					                            <!-- Column -->
+					                            <div class="card">
+					                                <div class="card-body text-center">
+					                                    <h4 class="text-center text-info">Unique Visit</h4>
+					                                    <h2>1200</h2>
+					                                    <div class="row p-t-10 p-b-10">
+					                                        <!-- Column -->
+					                                        <div class="col text-center align-self-center">
+					                                            <div data-label="20%" class="css-bar m-b-0 css-bar-primary css-bar-20"><i class="display-6 mdi mdi-account-circle"></i></div>
+					                                        </div>
+					                                    </div>
+					                                    <div class="row">
+					                                        <div class="col-md-6 col-sm-12">
+					                                            <h4 class="font-medium m-b-0"><i class="ti-angle-up text-success"></i> <br> 12056</h4>
+					                                        </div>
+					                                        <div class="col-md-6 col-sm-12">
+					                                            <h4 class="font-medium m-b-0"><i class="ti-angle-down text-danger"></i> <br> 145</h4>
+					                                        </div>
+					                                    </div>
+					                                </div>
+					                            </div>
+					                            <!-- Column -->
+					                            <!-- Column -->
+					                            <div class="card">
+					                                <div class="card-body text-center">
+					                                    <h4 class="text-center text-danger">Total Visit</h4>
+					                                    <h2>1200</h2>
+					                                    <div class="row p-t-10 p-b-10">
+					                                        <!-- Column -->
+					                                        <div class="col text-center align-self-center">
+					                                            <div data-label="20%" class="css-bar m-b-0 css-bar-danger css-bar-20"><i class="display-6 mdi mdi-star-circle"></i></div>
+					                                        </div>
+					                                    </div>
+					                                    <div class="row">
+					                                        <div class="col-md-6 col-sm-12">
+					                                            <h4 class="font-medium m-b-0"><i class="ti-angle-up text-success"></i> <br> 21456</h4>
+					                                        </div>
+					                                        <div class="col-md-6 col-sm-12">
+					                                            <h4 class="font-medium m-b-0"><i class="ti-angle-down text-danger"></i> <br> 145</h4>
+					                                        </div>
+					                                    </div>
+					                                </div>
+					                            </div>
+					                            <!-- Column -->
+					                            <!-- Column -->
+					                            <div class="card border-right-0">
+					                                <div class="card-body text-center">
+					                                    <h4 class="text-center text-cyan">Bounce rate</h4>
+					                                    <h2>1200</h2>
+					                                    <div class="row p-t-10 p-b-10">
+					                                        <!-- Column -->
+					                                        <div class="col text-center align-self-center">
+					                                            <div data-label="20%" class="css-bar m-b-0 css-bar-success css-bar-20"><i class="display-6 mdi mdi-briefcase-check"></i></div>
+					                                        </div>
+					                                    </div>
+					                                    <div class="row">
+					                                        <div class="col-md-6 col-sm-12">
+					                                            <h4 class="font-medium m-b-0"><i class="ti-angle-up text-success"></i> <br> 12465</h4>
+					                                        </div>
+					                                        <div class="col-md-6 col-sm-12">
+					                                            <h4 class="font-medium m-b-0"><i class="ti-angle-down text-danger"></i> <br> 145</h4>
+					                                        </div>
+					                                    </div>
+					                                </div>
+					                            </div>
+					                            <!-- Column -->
+					                        </div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="px-4">
+								<h4 class="card-title mt-4">Code Here:</h4>
+								<hr>
+								<pre class="highlight html">
+									<code class="shadow-sm px-4" style="height: 250px;">
+&lt;div class=&quot;card-group&quot;&gt;
+    &lt;!-- Column --&gt;
+    &lt;div class=&quot;card&quot;&gt;
+        &lt;div class=&quot;card-body text-center&quot;&gt;
+            &lt;h4 class=&quot;text-center text-info&quot;&gt;Unique Visit&lt;/h4&gt;
+            &lt;h2&gt;1200&lt;/h2&gt;
+            &lt;div class=&quot;row p-t-10 p-b-10&quot;&gt;
+                &lt;!-- Column --&gt;
+                &lt;div class=&quot;col text-center align-self-center&quot;&gt;
+                    &lt;div data-label=&quot;20%&quot; class=&quot;css-bar m-b-0 css-bar-primary css-bar-20&quot;&gt;&lt;i class=&quot;display-6 mdi mdi-account-circle&quot;&gt;&lt;/i&gt;&lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;row&quot;&gt;
+                &lt;div class=&quot;col-md-6 col-sm-12&quot;&gt;
+                    &lt;h4 class=&quot;font-medium m-b-0&quot;&gt;&lt;i class=&quot;ti-angle-up text-success&quot;&gt;&lt;/i&gt; &lt;br&gt; 12056&lt;/h4&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;col-md-6 col-sm-12&quot;&gt;
+                    &lt;h4 class=&quot;font-medium m-b-0&quot;&gt;&lt;i class=&quot;ti-angle-down text-danger&quot;&gt;&lt;/i&gt; &lt;br&gt; 145&lt;/h4&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- Column --&gt;
+    &lt;!-- Column --&gt;
+    &lt;div class=&quot;card&quot;&gt;
+        &lt;div class=&quot;card-body text-center&quot;&gt;
+            &lt;h4 class=&quot;text-center text-danger&quot;&gt;Total Visit&lt;/h4&gt;
+            &lt;h2&gt;1200&lt;/h2&gt;
+            &lt;div class=&quot;row p-t-10 p-b-10&quot;&gt;
+                &lt;!-- Column --&gt;
+                &lt;div class=&quot;col text-center align-self-center&quot;&gt;
+                    &lt;div data-label=&quot;20%&quot; class=&quot;css-bar m-b-0 css-bar-danger css-bar-20&quot;&gt;&lt;i class=&quot;display-6 mdi mdi-star-circle&quot;&gt;&lt;/i&gt;&lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;row&quot;&gt;
+                &lt;div class=&quot;col-md-6 col-sm-12&quot;&gt;
+                    &lt;h4 class=&quot;font-medium m-b-0&quot;&gt;&lt;i class=&quot;ti-angle-up text-success&quot;&gt;&lt;/i&gt; &lt;br&gt; 21456&lt;/h4&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;col-md-6 col-sm-12&quot;&gt;
+                    &lt;h4 class=&quot;font-medium m-b-0&quot;&gt;&lt;i class=&quot;ti-angle-down text-danger&quot;&gt;&lt;/i&gt; &lt;br&gt; 145&lt;/h4&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- Column --&gt;
+    &lt;!-- Column --&gt;
+    &lt;div class=&quot;card&quot;&gt;
+        &lt;div class=&quot;card-body text-center&quot;&gt;
+            &lt;h4 class=&quot;text-center text-cyan&quot;&gt;Bounce rate&lt;/h4&gt;
+            &lt;h2&gt;1200&lt;/h2&gt;
+            &lt;div class=&quot;row p-t-10 p-b-10&quot;&gt;
+                &lt;!-- Column --&gt;
+                &lt;div class=&quot;col text-center align-self-center&quot;&gt;
+                    &lt;div data-label=&quot;20%&quot; class=&quot;css-bar m-b-0 css-bar-success css-bar-20&quot;&gt;&lt;i class=&quot;display-6 mdi mdi-briefcase-check&quot;&gt;&lt;/i&gt;&lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;row&quot;&gt;
+                &lt;div class=&quot;col-md-6 col-sm-12&quot;&gt;
+                    &lt;h4 class=&quot;font-medium m-b-0&quot;&gt;&lt;i class=&quot;ti-angle-up text-success&quot;&gt;&lt;/i&gt; &lt;br&gt; 12465&lt;/h4&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;col-md-6 col-sm-12&quot;&gt;
+                    &lt;h4 class=&quot;font-medium m-b-0&quot;&gt;&lt;i class=&quot;ti-angle-down text-danger&quot;&gt;&lt;/i&gt; &lt;br&gt; 145&lt;/h4&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- Column --&gt;
+&lt;/div&gt;
+									</code>
+								</pre>
+							</div>
+						</div>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+            <footer class="footer text-center">
+                All Rights Reserved by Ample. Designed and Developed by <a
+                    href="https://wrappixel.com">WrapPixel</a>.
+            </footer>
+            <!-- ============================================================== -->
+            <!-- End footer -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- End Page -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="../assets/libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- apps -->
+    <script src="../dist/js/app.min.js"></script>
+    <script src="../dist/js/app.init.js"></script>
+    <script src="../dist/js/app-style-switcher.js"></script>
+    <script src="../assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="../dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="js/custom.js"></script>
+    <!-- End JS -->
+	<script src="highlights/highlight.min.js"></script>
+	<script>
+		hljs.initHighlightingOnLoad();
+	</script>
+</body>
+
+</html>
